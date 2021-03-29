@@ -1,0 +1,32 @@
+{
+  "//1": "Ekstradan Modül Vardır",
+  "//2": "Burdan Asla Bişey Değiştirmeyin",
+  "//3": "Modüllerin sürümünü Değiştirmek İçin Yukardaki Butona Basıp Modülün ismini Yazın Daha Sonra Modülün Üstündeki Versiyon'a Tıklayın",
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0",
+    "ascii-table": "^0.0.9",
+    "common-tags": "^1.8.0",
+    "reaction-role": "^2.1.6",
+    "quick.db": "^7.0.0-b15"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
