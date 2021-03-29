@@ -33,7 +33,6 @@ module.exports = {
           .setFooter("Destek Sistemi", client.user.avatarURL)
           .setTimestamp();
         ch.send(embed).catch();
-        //ch.send("@everyone")
         ch.send("<@&751165829042667641>");
         ch.awaitMessages(
           (msg) => {

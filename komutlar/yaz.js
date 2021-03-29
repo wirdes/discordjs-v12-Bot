@@ -5,10 +5,9 @@ module.exports = {
 
   run: (app, message, args) => {
     message.delete();
-    if (!message.member.roles.cache.has("751165829042667641"))
+    if (!message.member.roles.cache.has("751165829042667641"))//moderator role id
       return message.channel.send("Sadece Yetkililer bu komutu kullanabilir");
-    //if (!message.member.hasPermission("ADMINISTRATOR")) return message.channel.send('Sadece Yetkililer bu komutu kullanabilir');
-    let say = args.join(" "); // !say Selam dostlar!
+    let say = args.join(" "); 
     if (!say) return message.channel.send("Cümleyi belirt.");
     message.channel.send(say);
   },
